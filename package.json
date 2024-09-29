@@ -40,6 +40,16 @@
     "test-coverage": "c8 node --test",
     "prepare": "husky"
   },
+  "c8": {
+    "all": true,
+    "include": [
+      "index.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
   "devDependencies": {
     "@fisker/eslint-config": "13.1.1",
     "@fisker/lint-staged-config": "3.3.2",

@@ -1,6 +1,6 @@
 {
   "name": "mini-program-builtin-components",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Mini program builtin components list",
   "homepage": "https://github.com/fisker/mini-program-builtin-components#readme",
   "bugs": {
@@ -18,6 +18,7 @@
   "type": "module",
   "exports": "./index.js",
   "main": "index.js",
+  "files": ["index.js"],
   "scripts": {
     "clean": "run-p \"clean:*\"",
     "clean:dist": "del-cli dist",
